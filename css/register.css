@@ -1,0 +1,91 @@
+@charset "utf-8";
+/*注册页面开始*/
+.register-box{
+    margin-top: 4.667rem;
+    margin-bottom: 4.667rem;
+    border: 1px solid #ececec;
+    border-radius: 0.5rem;
+    background: #fff;
+    padding: 2.083rem 1.667rem 1.25rem;
+}
+.register-box h2{
+	font-size: 1.5rem;
+    color: #ff4d00;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 1.333rem;
+    margin: 0;
+}
+
+
+.item-authcode input{
+    height: 2.5rem;
+    line-height: 2.5rem;
+    width: 11.667rem;
+    padding: 0 0.833rem;
+    box-sizing: border-box;
+    outline: 0 none;
+    border: 1px solid #ececec;
+    border-radius: 0.333rem;
+    color: #333;
+}
+.item-authcode img{
+    width: 7.333rem;
+    height: 2.5rem;
+    float: right;
+    border-radius: 0.333rem;
+    cursor: pointer;
+    display: block;
+}
+.item a{
+	height: 2.5rem;
+    display: block;
+    line-height: 2.5rem;
+    width: 100%;
+    border: 1px solid #ececec;
+    border-radius: 0.333rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+.item .send-code{
+	color: #333;
+}
+.item .register-btn{
+	color: #fff;
+    background: #ff5500;
+    margin-top: 0.833rem;
+}
+.service-terms,.remember-pwd{
+	display: inline-block;
+    vertical-align: 0.167rem;
+}
+.register-checkbox{
+    width: 1.167rem;
+    height: 1.167rem;
+}
+/*注册页面结束*/
+
+/*服务条款页面*/
+.agreement{
+    padding: 5rem 0 2.5rem;
+    background: #f5f5f5;
+}
+.agree-box{
+    border-radius: 0.333rem;
+    border: 1px solid #ececec;
+    background: #fff;
+    padding: 2rem 0.833rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: #5d5d5d;
+}
+.agree-box h3{
+    text-align: center;
+    color: #4b4b4b;
+    font-size: 1.167rem;
+    margin: 0;
+    padding-bottom: 1.667rem;
+}
+.agree-box p{
+	text-indent: 2em;
+}

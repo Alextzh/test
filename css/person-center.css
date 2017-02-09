@@ -1,0 +1,308 @@
+@charset "utf-8";
+/*我的订单开始*/
+.order{
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+    padding: 0 1rem;
+}
+.order-box{
+	background: #fff;
+    border-radius: 0.333rem;
+    -webkit-box-shadow: 0 2px 1px #ccc;
+    -moz-box-shadow: 0 2px 1px #ccc;
+    box-shadow: 0 2px 1px #ccc;
+}
+.order-box h3{
+    margin: 0;
+    height: 3rem;
+    line-height: 3rem;
+    padding: 0 1.25rem;
+    font-size: 1.333rem;
+    font-weight: normal;
+    color: #414141;
+}
+.order-ul li{
+	
+    border-top: 1px solid #ececec;
+}
+.order-ul .anchor{
+	padding: 1.25rem;
+    display: block;
+    position: relative;
+}
+.order-img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    position: absolute;
+    background: #fdb700;
+    top: 1.333rem;
+    left: 1rem;
+}
+.img-box{
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    overflow: hidden;
+    -webkit-transform: translateX(0.1667rem) translateY(-0.1667rem);
+    -moz-transform: translateX(0.1667rem) translateY(-0.1667rem);
+    -ms-transform: translateX(0.1667rem) translateY(-0.1667rem);
+    -o-transform: translateX(0.1667rem) translateY(-0.1667rem);
+    transform: translateX(0.1667rem) translateY(-0.1667rem);
+}
+.order-img img{
+	display: block;
+	max-width: 100%;
+}
+.order-con{
+	padding-left: 6.25rem;
+    font-size: 1.167rem;
+    position: relative;
+    padding-right: 2rem;
+}
+.order-close{
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 50%;
+    width: 2rem;
+    height: 2rem;
+    background: url("../img/order-close.png") no-repeat center center;
+    background-size: cover;
+    margin-top: -1rem;
+}
+.order-title{
+	max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 0.1667rem;
+}
+
+
+/*我的订单结束*/
+/*订单评价开始*/
+.order-evaluate{
+	padding: 5rem 0 3.333rem;
+}
+
+.blind{
+    background: #fff;
+    border-radius: 0.333rem;
+}
+.evaluate-title{
+	height: 2.833rem;
+    line-height: 2.833rem;
+    padding: 0 1.25rem;
+    font-size: 1.167rem;
+    border-radius: 0.333rem;
+    -webkit-box-shadow: 0 2px 1px #e1e1e1;
+    -moz-box-shadow: 0 2px 1px #e1e1e1;
+    box-shadow: 0 2px 1px #e1e1e1;
+}
+.comment-wrap{
+	text-align: left;
+    font-size: 1rem;
+    padding-bottom: 1.25rem;
+    padding: 1.25rem 0.833rem;
+    -webkit-box-shadow: 0 2px 1px #e1e1e1;
+    -moz-box-shadow: 0 2px 1px #e1e1e1;
+    box-shadow: 0 2px 1px #e1e1e1;
+    border-radius: 0.333rem;
+}
+.evalute-box{
+	padding: 0 0.417rem 0.833rem;
+    border-bottom: 1px solid #ececec;
+    margin-bottom: 2rem;
+}
+
+.comment-con-title{
+    position: absolute;
+    top: 0.1667rem;
+    left: 0;
+}
+.score-box{
+    padding-left: 3.333rem;
+}
+.score-box li{
+	display: inline-block;
+    margin-right: 0.833rem;
+    font-size: 1.33rem;
+}
+.score-box li a{
+	color: #a2a2a2;
+}
+.score-box li.active a{
+	color: #ff4d00;
+}
+.comment-con{
+    width: 100%;
+    resize: none;
+    border: none;
+    border-radius: 0.333rem;
+    min-height: 10.833rem;
+    padding: 0.833rem;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 1rem;
+    background: #f5f5f5;
+}
+.comment-remark{
+    text-align: right;
+    margin-top: 0.333rem;
+    padding-right: 0.5rem;
+}
+.add-image{
+    display: inline-block;
+    width: 5.417rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    background: #ff4d00;
+    color: #fff;
+    border-radius: 0.333rem;
+    margin-right: 0.417rem;
+}
+.anonymous{
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    background: #f5f5f5;
+    border: 1px solid #ececec;
+    border-radius: 0.333rem;
+    line-height: 1.25rem;
+    text-align: center;
+    color: #f5f5f5;
+}
+.anonymous.active{
+	color: #ff4d00;
+}
+#choose {
+    display: none;
+}
+.img-list li {
+    height: 5rem;
+    width: 5rem;
+    background: #f5f5f5 no-repeat center center;
+    float: left;
+    margin-right: 0.833rem;
+    margin-bottom: 0.833rem;
+    border-radius: 0.333rem;
+    overflow: hidden;
+    background-size: cover;
+    position: relative;
+}
+.progress {
+    position: absolute;
+    width: 100%;
+    height: 1.667rem;
+    line-height: 1.667rem;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(100,149,198,.5);
+}
+.progress span {
+    display: block;
+    width: 0;
+    height: 100%;
+    background-color: rgb(100,149,198);
+    text-align: center;
+    color: #FFF;
+    font-size: 1rem;
+}
+.size {
+    position: absolute;
+    width: 100%;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    bottom: 0.1667rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #666;
+}
+/*订单评价结束*/
+/*订单详情开始*/
+.order-caption{
+	color: #414141;
+    margin-bottom: 0.333rem;
+    font-weight: 600;
+}
+.evalute-content{
+	margin-bottom: 0;
+    border-bottom: none;
+    padding: 0 0.417rem;
+}
+.exchange-con{
+    background: #fff;
+    padding: 1.1667rem 0 2.917rem;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 0.333rem;
+}
+
+.exchange-price{
+	float: right;
+	margin: 0 0.833rem;
+}
+.exchange-img-bg{
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    background: #ff4d00;
+    top: 1.167rem;
+    left: 0;
+    border-radius: 100%;
+}
+.exchange-img{
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    background: #ff4d00;
+    top: -0.1667rem;
+    left: 0.1667rem;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.exchange-img img{
+	max-width: 100%;
+	display: block;
+}
+.exchange-item{
+    padding-left: 5.417rem;
+}
+.exchange-pay{
+    text-align: right;
+}
+.exchange-btn{
+    text-align: right;
+    padding-top: 1.25rem;
+}
+.exchange-btn a{
+    display: inline-block;
+    width: 5.5rem;
+    height: 2.083rem;
+    text-align: center;
+    line-height: 2.083rem;
+    background: #ff4d00;
+    color: #fff;
+    border-radius: 0.333rem;
+}
+/*订单详情结束*/
+/*我的发布开始*/
+.release-price{
+    display: inline-block;
+    -webkit-transform: scale(0.928);
+    -moz-transform: scale(0.928);
+    -ms-transform: scale(0.928);
+    -o-transform: scale(0.928);
+    transform: scale(0.928);
+}
+/*我的发布结束*/
+
+
+
+
+
+
+

@@ -1,0 +1,148 @@
+body {
+	background: #F5F5F5;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family:Tahoma,Arial,Roboto,"Droid Sans","Helvetica Neue","Droid Sans Fallback","Heiti SC",sans-self;
+    -ms-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%; 
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+audio,
+canvas,
+progress,
+video {
+    display: inline-block; /* 1 */
+    vertical-align: baseline; /* 2 */
+}
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+[hidden],
+template {
+    display: none;
+}
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color: #4b4b4b;
+}
+a:active,
+a:hover {
+    outline: 0;
+	text-decoration:none;
+}
+a.link.active{
+	opacity: 0.3;
+    -webkit-transition-duration: 0ms;
+    transition-duration: 0ms;
+    background: transparent;
+}
+b,
+strong {
+    font-weight: bold;
+}
+img {
+    border: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit; 
+    font: inherit; 
+    margin: 0; 
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button; 
+    cursor: pointer; 
+}
+p{
+	margin:0;
+	padding:0;
+}
+button{
+	border:none;
+	outline:none;
+}
+/*清除浮动*/
+.clear {zoom: 1;}
+.clear:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+/*1/n线条*/
+.thinner-border {
+    position: relative;
+}
+.thinner-border:before {
+    content: '';
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    left:0px;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -o-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*如果a为 thinner-border的子元素 则a的z-index 否则点击不到*/
+.thinner-border a {
+    position:relative;
+    z-index: 1;
+}
+.text-overflow{
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*解决chrome浏览器下字体不能小于12px*/
+html{
+	-webkit-text-size-adjust:none; 
+}

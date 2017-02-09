@@ -1,0 +1,68 @@
+@charset "utf-8";
+.help{
+    padding: 5.833rem 0 3.75rem;
+    background: #f5f5f5;
+}
+.strong-recommend{
+	text-align: center;
+    background: url(../img/helpcenter.png) no-repeat center bottom;
+    background-size: contain;
+    width: 15.417rem;
+    margin: 0 auto;
+}
+.strong-recommend h4{
+	font-size: 1.333rem;
+    color: #4b4b4b;
+    margin: 0;
+}
+.compare{
+    font-size: 1.167rem;
+    color: #4a4a4a;
+    letter-spacing: 0.167rem;
+    font-weight: 600;
+    position: relative;
+}
+.compare:before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 1.667rem;
+    height: 1px;
+    background: url(../img/heng.png) no-repeat center center;
+    margin-left: -7.5rem;
+}
+.compare:after{
+	content: "";
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    width: 1.667rem;
+    height: 1px;
+    background: url(../img/heng.png) no-repeat center center;
+    margin-right: -7.5rem;
+}
+.help-item{
+	margin-top: 2rem;
+    border: 1px solid #ececec;
+    border-radius: 0.333rem;
+}
+.help-item h3{
+	height: 2.5rem;
+    line-height: 2.5rem;
+    color: #414141;
+    font-size: 1.167rem;
+    text-align: center;
+    background: #fff;
+    border-radius: 0.333rem;
+    margin: 0;
+}
+.help-con{
+    padding: 1rem 0.667rem;
+    font-size: 1rem;
+    color: #4c4c4c;
+}
+.help-title{
+	font-weight: 600;
+    padding-bottom: 0.667rem;
+}
